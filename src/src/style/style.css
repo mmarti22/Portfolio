@@ -1,0 +1,19 @@
+body {
+    background-color: #5c9ca4 !important;
+    font-family: "Enriqueta" !important;
+}
+
+.navbar {
+    background-color: #20444c !important;
+    font-family: "Enriqueta" !important;
+}
+
+.navbar-brand {
+    color: #f1cd80 !important;
+    font-size: large !important;
+    margin-left: 20px !important;
+}
+.nav-link {
+    color: #f1cd80 !important;
+
+}
