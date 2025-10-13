@@ -113,6 +113,10 @@ h3 {
     align-self: center !important;
 }
 
+.projectss {
+    align-items: right !important;
+}
+
 .project1 {
     background-color: #91c8d0;
 }
