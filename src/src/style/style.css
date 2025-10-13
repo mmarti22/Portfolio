@@ -106,3 +106,13 @@ h3 {
     color: #f1cd80 !important;
     font-weight: bold !important;
 }
+
+.btn-primary {
+    background-color: #f1cd80 !important;
+    color: #000000 !important;
+    align-self: center !important;
+}
+
+.project1 {
+    background-color: #91c8d0;
+}
