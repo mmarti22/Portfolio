@@ -28,11 +28,11 @@ h1 {
     font-weight: bold !important;
 }
 
-.container {
+.presentation {
     border-radius: 15px !important;
     border-width: 20px !important;
     border-color: #f1cd80 !important;
-    border: 15px !important;
+    border: 5px solid #f1cd80!important;
     padding: 15px !important;
 }
 
