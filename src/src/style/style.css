@@ -20,3 +20,24 @@ body {
     color: #f1cd80 !important;
 
 }
+
+h1 {
+    color: #f1cd80 !important;
+    text-align: center;
+    margin-top: 2% !important;
+    font-weight: bold !important;
+}
+
+.container {
+    border-radius: 15px !important;
+    border-width: 20px !important;
+    border-color: #f1cd80 !important;
+    border: 15px !important;
+    padding: 15px !important;
+}
+
+.profile-picture {
+
+    width: 15%;
+    border-radius: 15px;
+}
