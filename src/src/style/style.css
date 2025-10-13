@@ -28,16 +28,29 @@ h1 {
     font-weight: bold !important;
 }
 
+.column-presentation {
+    gap: 10%;
+    margin-top: 5% !important;
+    margin-left: 15% !important;
+    
+}
+
 .presentation {
     border-radius: 15px !important;
     border-width: 20px !important;
     border-color: #f1cd80 !important;
     border: 5px solid #f1cd80!important;
     padding: 15px !important;
+    width: 40% !important;
+    text-align: center !important;
 }
 
 .profile-picture {
 
     width: 15%;
     border-radius: 15px;
+}
+
+.card-text-presentation {
+    font-size: 25px;
 }

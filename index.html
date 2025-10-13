@@ -1,76 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Marina Martí</title>
-        <link rel="stylesheet" href="src/src/style/style.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;500;600;700&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-            crossorigin="anonymous"/>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marina Martí</title>
+    <link rel="stylesheet" href="src/src/style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
 
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-lg container-fluid">
-                <a class="navbar-brand" href="#">MM</a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav"
-                    aria-controls="navbarNav"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    </ul>
-                </div>
-            </nav>
-            </header>
-        
-            <section class="homepage">
-                <h1>Marina Martí</h1>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg container-fluid">
+        <a class="navbar-brand" href="#">MM</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-flex justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-                    <article class="card presentation" style="width: 18rem; background-color:#5c9ca4;"> 
-                    <div class="card-body">
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sint accusantium ad et. Repudiandae fugiat, quia illo ducimus aspernatur hic facilis unde at repellat laboriosam quisquam. Nesciunt delectus unde dicta.</p>
-                    </article>
-                    </div>
-
-        
-
-
-
-            <img src="images/kirby.jpg" class="profile-picture" alt="ProfilePicture">
-
-
-            </section>
+    <main>
+      <section class="container homepage">
+        <h1>Marina Martí</h1>
+        <div class="row column-presentation">
+          <div
+            class="card presentation"
+            style="width: 18rem; background-color: #5c9ca4"
+            >
+            <div class="card-body">
+              <p class="card-text-presentation">
+                I’m a web developer with a background in social psychology. My work integrates technical expertise with a strong understanding of human behavior, allowing me to create intuitive and user-centered digital experiences.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <img
+              src="images/kirby.jpg"
+              class="profile-picture col-6"
+              alt="ProfilePicture"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer><a href="https://github.com/mmarti22">GitHub</a> 2025</footer>
     <script src="src/src/js/srcript.js"></script>
