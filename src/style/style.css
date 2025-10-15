@@ -32,13 +32,7 @@ h2{
     color: #f1cd80 !important;
     text-align: center;
     margin-top: 2% !important;
-    font-weight: bold !important;
-}
-
-h3 {
-    color: #f1cd80 !important;
-    text-align: center;
-    margin-top: 2% !important;
+    margin-bottom: 2% !important;
     font-weight: bold !important;
 }
 
@@ -92,8 +86,7 @@ h3 {
 
 .aboutme2 {
     width: 80%;
-    margin-top: 5%;
-    margin-left: 7%;
+   margin-left: 7%;
 }
 
 .accordion-body{
@@ -122,6 +115,22 @@ h3 {
     background-color: #91c8d0;
 }
 
+.skill1 {
+    background-color: #5c9ca4 !important;
+    border-radius: 15px !important;
+    border-width:2px !important;
+    border-color: #f1cd80 !important;
+    gap: 5px !important;
+}
+
+.card {
+    text-align: center;
+}
+.card-title {
+    color: #20444c !important;
+    font-weight: bold !important;
+    text-align: center !important;
+}
 footer {
     color: #f1cd80;
     background-color: #2E5F69 !important;
