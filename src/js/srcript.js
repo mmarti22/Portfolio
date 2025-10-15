@@ -36,3 +36,4 @@ const getData = async () => {
   document.getElementById('objectList').innerHTML = peopleList;
 };
 getData();
+
