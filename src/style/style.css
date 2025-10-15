@@ -63,7 +63,7 @@ h3 {
 
 .profile-picture {
 
-    width: 15%;
+    width: 400px !important;
     border-radius: 15px;
 }
 
@@ -98,11 +98,12 @@ h3 {
 
 .accordion-body{
     background-color: #91c8d0;
+    font-size: 20px !important;
 }
 
 .accordion-button {
     background-color: #20444c !important;
-    font-size: large !important;
+    font-size: 25px !important;
     color: #f1cd80 !important;
     font-weight: bold !important;
 }
