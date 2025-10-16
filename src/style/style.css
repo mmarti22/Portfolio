@@ -1,0 +1,171 @@
+body {
+    background-color: #5c9ca4 !important;
+    font-family: "Enriqueta" !important;
+}
+
+.navbar {
+    background-color: #20444c !important;
+    font-family: "Enriqueta" !important;
+    font-size: 22px;
+    gap: 20px;
+    font-weight: bolder;
+}
+
+.navbar-brand {
+    color: #f1cd80 !important;
+    font-size: large !important;
+    margin-left: 20px !important;
+    font-size: 30px !important;
+}
+.nav-link {
+    color: #f1cd80 !important;
+
+}
+
+h1 {
+    color: #f1cd80 !important;
+    text-align: center;
+    margin-top: 2% !important;
+    font-weight: bold !important;
+}
+
+h2{
+    color: #f1cd80 !important;
+    text-align: center !important;
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    font-weight: bold !important;
+}
+
+
+.column-presentation {
+    gap: 10%;
+    margin-top: 5% !important;
+    margin-left: 15% !important;
+    
+}
+
+.presentation {
+    border-radius: 15px !important;
+    border-width: 20px !important;
+    border-color: #f1cd80 !important;
+    border: 5px solid #f1cd80!important;
+    padding: 15px !important;
+    width: 40% !important;
+    text-align: center !important;
+    box-shadow: 0px 10px 13px -7px #000000;
+}
+
+.profile-picture {
+
+    width: 400px !important;
+    border-radius: 15px;
+}
+
+.contact2 {
+    font-size: 20px;
+    border-radius: 15px !important;
+    border-width: 25px !important;
+    border-color: #f1cd80 !important;
+    border-style: solid !important;
+    border: 5px solid #f1cd80!important;
+    padding: 15px !important;
+    box-shadow: 0px 10px 13px -7px #000000;
+    background-color:#5c9ca4 !important;
+}
+
+.aboutme{
+    border-radius: 15px !important;
+    border-width: 20px !important;
+    border-color: #f1cd80 !important;
+    border: 5px solid #f1cd80!important;
+    padding: 15px !important;
+    text-align: center !important;
+    align-self: center !important;
+    box-shadow: 0px 10px 13px -7px #000000;
+
+    
+}
+.column-aboutme {
+    margin-top: 2% !important;
+    margin-left: 30% !important;
+    font-size: 20px;
+    width: 100%;
+}
+
+
+.accordion-body{
+    background-color: #91c8d0;
+    font-size: 20px !important;
+   
+}
+
+.accordion-button {
+    background-color: #20444c !important;
+    font-size: 25px !important;
+    color: #f1cd80 !important;
+    font-weight: bold !important;
+}
+
+.btn-primary {
+    background-color: #f1cd80 !important;
+    color: #000000 !important;
+    align-self: center !important;
+}
+
+.projectss {
+    align-items: right !important;
+}
+
+.project1 {
+    background-color: #91c8d0;
+}
+
+.skill1 {
+    background-color: #5c9ca4 !important;
+    border-radius: 15px !important;
+    border-width:2px !important;
+    border-color: #f1cd80 !important;
+    gap: 5px !important;
+}
+
+.card {
+    text-align: center;
+}
+.card-title {
+    color: #20444c !important;
+    font-weight: bold !important;
+    text-align: center !important;
+}
+
+.contact1 {
+    background-color: #5c9ca4 !important;
+    border-radius: 15px !important;
+    border-width:2px !important;
+    border-color: #f1cd80 !important;
+    gap: 5px !important;
+    align-self: center;
+}
+
+footer {
+    color: #f1cd80;
+    background-color: #2E5F69 !important;
+    width: 100%;
+    height: 81px;
+    position: absolute !important;
+    margin-top: 5% !important;
+    
+    margin-bottom: 0 !important;
+}
+
+.footer1 {
+    color: #f1cd80;
+    background-color: #2E5F69 !important;
+    width: 100%;
+    height: 81px;
+    position: absolute !important;
+    bottom: 0 !important;
+}
+
+
+
