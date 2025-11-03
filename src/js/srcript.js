@@ -9,12 +9,13 @@ const projects = [
         name: 'Portfolio',
         image: "./src/images/portfolio.png",
         description: 'My portfolio',
-        link: "https://github.com/mmarti22/Portfolio"
+        link: "https://portfoliommarti22.netlify.app/"
     },
     {
-        name: 'Another project',
-        image: "./src/images/ein.jpg",
-        link: 'http://github.com/mmarti22'
+        name: 'Carnival Games',
+        image: "./src/images/carnivalgames.png",
+        description: 'Games web',
+        link: 'https://carnivaldom.netlify.app/'
     }
 ];
 
@@ -27,7 +28,7 @@ const getData = async () => {
                 <div class="card-body project1 ">
                     <h5 class="card-title">${person.name}</h5>
                     <p class="card-text">${person.description}</p>
-                    <a href="${person.link}" class="btn btn-primary">GitHub</a>
+                    <a href="${person.link}" class="btn btn-primary">Visit the project</a>
                     
                 </div>
             </div>
